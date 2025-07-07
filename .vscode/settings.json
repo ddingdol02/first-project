@@ -1,5 +1,13 @@
 {
     "files.associations": {
         "stdio.h": "c"
-    }
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.insertSpaces": false
 }
