@@ -1,6 +1,6 @@
-# K-최근접 이웃 회귀
+"""# K-최근접 이웃 회귀"""
 
-# 데이터 준비
+"""## 데이터 준비"""
 
 import numpy as np
 
@@ -148,7 +148,7 @@ train_input = train_input.reshape(-1, 1)
 test_input = test_input.reshape(-1, 1)
 print(train_input.shape, test_input.shape)
 
-# 결정계수(R^2)
+"""## 결정계수(R^2)"""
 
 from sklearn.neighbors import KNeighborsRegressor
 
@@ -168,7 +168,7 @@ test_prediction = knr.predict(test_input)
 mae = mean_absolute_error(test_target, test_prediction)
 print(mae)
 
-# 과대적합 vs 과소적합
+"""## 과대적합 vs 과소적합"""
 
 print(knr.score(train_input, train_target))
 
