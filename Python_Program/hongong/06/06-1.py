@@ -4,9 +4,9 @@
 
 """## 과일 사진 데이터 준비하기"""
 
-import wget
+# import wget
 
-wget.download("https://bit.ly/fruits_300_data", "fruits_300.npy")
+# wget.download("https://bit.ly/fruits_300_data", "fruits_300.npy")
 
 import numpy as np
 import matplotlib.pyplot as plt
